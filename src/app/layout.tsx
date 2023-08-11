@@ -164,7 +164,7 @@ export default function RootLayout({
 
   if (!password && !!PASSWORD_PROTECT) {
     return (
-      <html lang="en" className="flex flex-col h-full">
+      <html lang="en" className="flex flex-col h-full overflow-x-hidden">
         <body>
           <h1>Password</h1>
           <Password />
