@@ -8,7 +8,7 @@ import { Password } from '@/components/Password/Password'
 import { website } from '@/config/website'
 import { Providers } from './providers'
 import ThirdWebProviderClient from '@/components/client/QueryClientProvider'
-import QueryClientProvider from '@/components/client/QueryClientProvider'
+import QueryClientProvider from '@/components/client/QueryClientProvider'asdf
 import { Teaser } from '@/components/Teaser/Teaser'
 import { Navbar } from '@/components/Navbar'
 import { TeaserNav } from '@/components/Teaser/TeaserNav'
@@ -186,7 +186,7 @@ export default function RootLayout({
       <html lang="en" className="flex flex-col h-full">
         <body
           className={clsx(
-            'flex flex-col h-full',
+            'flex flex-col h-full overflow-x-hidden',
             coinbaseSans.variable,
             coinbaseText.variable,
             coinbaseMono.variable,
